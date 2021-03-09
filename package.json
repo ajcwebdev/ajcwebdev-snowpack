@@ -1,0 +1,21 @@
+{
+  "name": "ajcwebdev-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "init": "snowpack init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.5.2",
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "svelte": "^3.35.0"
+  }
+}
